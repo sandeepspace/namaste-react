@@ -10,36 +10,12 @@
 </head>
 
 <body>
-    <!-- <div id="root">
-        <h1>Hello word from normal page!!</h1>
-    </div> -->
-
-    <!-- <div id="root"></div>
-    <script>
-        const heading = document.createElement('h1');
-        heading.innerHTML = 'Hello word from javascript!!'
-        const root = document.getElementById('root');
-        root.appendChild(heading);
-    </script> -->
-
-    <h1>Top of the Root</h1>
     <div id="root">
         <h1>It will be replaced by the parent. (App.js)</h1>
     </div>
-    <h1>Bottom of the Root</h1>
 
-    <!-- No longer need cdn if installed react & react-dom pkg -->
-    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
-
-    <!-- Add type="module" in the script to browser understand its not a browser script -->
     <script type="module" src="./App.js"></script>
-    <!-- <script>
-        const heading = React.createElement('h1',{},'Hello word from react!!');
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(heading);
-    </script> -->
-
+  
 </body>
 
 </html>
