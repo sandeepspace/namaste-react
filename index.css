@@ -1,3 +1,112 @@
-h1{
-    color: rebeccapurple;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items>ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.search-container {
+    padding: 20px;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.rest-img {
+    width: 100%;
+}
+
+.rest-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 220px;
+    height: 400px;
+    background-color: gray;
+    margin: 20px;
+}
+
+.auth-bth {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+}
+
+.search {
+    margin: 20px;
+}
+
+.search-btn {
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
+}
+
+.center-shimmer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card{
+    border: 2px solid goldenrod;
+    padding: 20px;
 }
